@@ -1,0 +1,23 @@
+body{
+ background-image: url("Pictures/HaircutModel.jpeg"); 
+ background-color: #cccccc;
+ /*background-repeat: no-repeat;*/
+ /*background-attachment: fixed;*/
+ background-position: center;
+}
+
+
+.Stupid{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+button{
+    margin-top: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
