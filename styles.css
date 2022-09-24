@@ -1,9 +1,27 @@
+#logoContainer {
+    background-image: url("Pictures/bshop.jpg");
+    background-size: auto;
+    width: 100%;
+    margin: 0px;
+    /*filter: blur(4px);*/
+}
+
+#logo {
+    /*padding*/
+    height: 60vh;
+    filter: invert(100%);
+}
+
+#title {
+    
+}
+
 body{
- background-image: url("Pictures/HaircutModel.jpeg"); 
- background-color: #cccccc;
- /*background-repeat: no-repeat;*/
- /*background-attachment: fixed;*/
- background-position: center;
+    /*background-image: url("Pictures/HaircutModel.jpeg"); */
+    background-color: #cccccc;
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    background-position: center;
 }
 
 
