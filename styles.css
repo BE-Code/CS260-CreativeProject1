@@ -12,10 +12,27 @@
     filter: invert(100%);
 }
 
-#title {
-    
+#Elogo {
+    /*padding*/
+    filter: invert(100%);
 }
 
+#title {
+    text-align: center;
+}
+
+#Team{
+    text-align: center;
+}
+
+#intro{
+    text-align: center;
+}
+
+#end{
+    text-align: center;
+    margin: 25px
+}
 body{
  /*background-image: url("Pictures/HaircutModel.jpeg"); */
  background-color: #cccccc;
@@ -29,19 +46,18 @@ body{
     margin: auto;
     display: flex;
     justify-content: center;
-    height: 500px;
 }
 
-button{
-    margin-top: auto;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-}
+/*button{*/
+/*    margin-top: auto;*/
+/*    height: 50px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
 
 .col-sm{
   padding-top: 25px;
-  border-style: double;
+  /*border-style: double;*/
 }
 
 .text{
@@ -53,4 +69,17 @@ button{
     object-fit: cover;
     height: 200px;
     width: 200px;
+}
+
+.midpart{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: box;
+}
+
+.intro{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
