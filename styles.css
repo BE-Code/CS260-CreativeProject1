@@ -1,6 +1,23 @@
+/***General***/
+
+body{
+ /*background-image: url("Pictures/HaircutModel.jpeg"); */
+ background-color: #cccccc;
+ /*background-repeat: no-repeat;*/
+ /*background-attachment: fixed;*/
+ /*background-position: center;*/
+}
+
+
+
+
+
+/***index.html***/
+
 #logoContainer {
     background-image: url("Pictures/bshop.jpg");
-    background-size: auto;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     margin: 0px;
     /*filter: blur(4px);*/
@@ -55,9 +72,18 @@ body{
 /*    justify-content: center;*/
 /*}*/
 
+
+
+
+
+/***YourStyle.html***/
+
 .col-sm{
-  padding-top: 25px;
+  /*padding-top: 25px;*/
   /*border-style: double;*/
+  margin: 30px;
+  padding: 0px;
+  width: auto;
 }
 
 .text{
@@ -69,6 +95,52 @@ body{
     object-fit: cover;
     height: 200px;
     width: 200px;
+}
+
+.styleImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    /*margin: 0 auto;*/
+}
+
+.buttonContainer div {
+    /* Grey */
+    background-color: #777777;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    padding: 13px;
+}
+
+.imageSelect {
+    padding: 0px;
+    background: none;
+    border: none;
+}
+
+.imageSelect:hover div img {
+    width: 250px;
+    height: 250px;
+}
+
+.imageSelect:hover div div {
+    width: 250px;
+}
+
+.imageSelect:focus div div {
+    /* Green */
+    background-color: #4CAF50;
+    content: "Selected";
 }
 
 .midpart{
