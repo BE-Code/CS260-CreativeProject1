@@ -1,11 +1,7 @@
 /***General***/
 
 body{
- /*background-image: url("Pictures/HaircutModel.jpeg"); */
  background-color: #cccccc;
- /*background-repeat: no-repeat;*/
- /*background-attachment: fixed;*/
- /*background-position: center;*/
 }
 
 
@@ -154,3 +150,30 @@ body{
 
 
 /***about.html***/
+
+#aboutTitle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#aboutHr {
+    width: 70vw;
+    border-top: 2px solid #555555;
+    margin-bottom: 30px;
+}
+
+#aboutH2 {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#aboutP {
+    margin-left: 20px;
+}
+
+#aboutImg {
+    height: 50vh;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
