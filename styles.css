@@ -76,6 +76,16 @@ body{
 
 /***YourStyle.html***/
 
+.final{
+    margin-right: 50px
+    margin-left:50px;
+}
+
+h1,h2{
+    text-align: center
+}
+
+
 .col-sm{
   /*padding-top: 25px;*/
   /*border-style: double;*/
@@ -146,6 +156,7 @@ body{
 
 
 /***location.html***/
+
 
 
 
